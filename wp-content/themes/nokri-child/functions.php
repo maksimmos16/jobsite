@@ -10,7 +10,7 @@ function change_existing_currency_symbol( $currency_symbol, $currency ) {
      switch( $currency ) {
           case 'ZMW': $currency_symbol = 'ZMK'; break;
      }
-     return $currency_symbol;
+     return $currency_symbol ;
 }
 
 function easyjob_enqueue_scripts() {
